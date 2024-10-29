@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface CustomAnnotations {
-    public String directory() default "src/main/resources";
+    String directory() default "src/main/resources";
 }

@@ -8,7 +8,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
+        serializeObject();
+    }
 
+    public static void serializeObject(){
         ObjectToSerialize objectToSerialize = new ObjectToSerialize("Objeto para serializar");
         ObjectMapper mapper = new ObjectMapper();
 
